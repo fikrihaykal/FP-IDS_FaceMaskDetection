@@ -14,8 +14,24 @@
     <li><a href="#deskripsi">Deskripsi</a></li>
     <li><a href="#requirement">Requirement</a></li>
     <li><a href="#dataset">Dataset</a></li>
-    <li><a href="#cara-kerja">Cara Kerja</a></li>
-    <li><a href="#instalasi">Instalasi</a></li>
+    <li><a href="#cara-kerja">Cara Kerja</a>
+        <ol>
+            <li><a href="#opencv-menggunakan-kamera">OpenCV Menggunakan Kamera</a>
+            <li><a href="#tensorflow-dan-keras-mendeteksi-wajah">Tensorflow dan Keras Mendeteksi Wajah</a>
+            <li><a href="#menampilkan-label-frame">Menampilkan Label Frame</a>
+            <li><a href="#menyimpan-screenshot-frame">Menyimpan Screenshot Frame</a>
+            <li><a href="#membuat-notifikasi-pushbullet">Membuat Notifikasi PushBullet</a>
+        </ol>
+    </li>
+    <li><a href="#instalasi">Instalasi</a>
+        <ol>
+            <li><a href="#menginstal-anaconda">Menginstal Anaconda</a>
+            <li><a href="#menginstal-requirement">Menginstal Requirement</a>
+            <li><a href="#menginstal-pushbullet">Menginstal PushBullet</a>
+            <li><a href="#mengatur-token-pushbullet">Mengatur Token PushBullet</a>
+            <li><a href="#testing-program">Testing Program</a>
+        </ol>
+    </li>
     <li><a href="#hasil-run-program">Hasil Run Program</a></li>
 </ol>
 
@@ -75,7 +91,7 @@ Pertama kali pada saat menjalankan script `detect_mask.py`, program akan membuka
 #### 2. Tensorflow dan Keras Mendeteksi Wajah
 Setelah mendapat frame dari OpenCV, maka Tensorflow akan mendeteksi apakah ada wajah seseorang dalam frame tersebut. Jika ada, maka akan diolah dan dicek, apakah orang tersebut memakai masker atau tidak. Pada tahap ini, return value yang dihasilkan masih berupa sebuah integer, belum ada pelabelan apakah orang tersebut memakai masker atau tidak.
 
-#### 3. Menampilkan Frame Label
+#### 3. Menampilkan Label Frame
 Tahap ini hanya akan dilalui ketika ada wajah seseorang yang terdeteksi pada frame. Pada tahap ini, fungsi menerima return value yang digunakan untuk menentukan apakah orang pada frame tersebut memakai masker atau tidak. Label juga akan ditampilkan pada frame beserta skor dalam bentuk persentase.
 
 #### 4. Menyimpan Screenshot Frame
