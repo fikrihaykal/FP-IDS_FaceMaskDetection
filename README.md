@@ -132,3 +132,5 @@ Setelah frame disimpan, maka langkah selanjutnya adalah mengirim gambar tersebut
 
 
 ### Hasil Run Program
+Dokumentasi foto <b>intruder</b> terdapat pada folder `intruder`<br />
+![img](https://raw.githubusercontent.com/fikrihaykal/FaceMaskDetection/master/img/Hasil%20test.png?raw=TRUE)
