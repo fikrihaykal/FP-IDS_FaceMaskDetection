@@ -5,6 +5,7 @@
 ![nama](https://img.shields.io/badge/Nama-Fikri%20Haykal-blueviolet)<br />
 ![nrp](https://img.shields.io/badge/NRP-05311840000006-blueviolet)<br />
 ![angkatan](https://img.shields.io/badge/Angkatan-2018-blueviolet)<br />
+![matkul](https://img.shields.io/badge/Mata%20Kuliah-Sistem Deteksi%20dan%20Intrusi-blueviolet)<br />
 ![dosen](https://img.shields.io/badge/Dosen%20Pembimbing-Ridho%20Rahman%20Hariadi%20S.Kom,%20M.Sc-blueviolet)<br />
 
 ### Deskripsi
