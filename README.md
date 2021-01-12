@@ -16,20 +16,20 @@
     <li><a href="#dataset">Dataset</a></li>
     <li><a href="#cara-kerja">Cara Kerja</a>
         <ol>
-            <li><a href="#opencv-menggunakan-kamera">OpenCV Menggunakan Kamera</a>
-            <li><a href="#tensorflow-dan-keras-mendeteksi-wajah">Tensorflow dan Keras Mendeteksi Wajah</a>
-            <li><a href="#menampilkan-label-frame">Menampilkan Label Frame</a>
-            <li><a href="#menyimpan-screenshot-frame">Menyimpan Screenshot Frame</a>
-            <li><a href="#membuat-notifikasi-pushbullet">Membuat Notifikasi PushBullet</a>
+            <li><a href="#1-opencv-menggunakan-kamera">OpenCV Menggunakan Kamera</a>
+            <li><a href="#2-tensorflow-dan-keras-mendeteksi-wajah">Tensorflow dan Keras Mendeteksi Wajah</a>
+            <li><a href="#3-menampilkan-label-frame">Menampilkan Label Frame</a>
+            <li><a href="#4-menyimpan-screenshot-frame">Menyimpan Screenshot Frame</a>
+            <li><a href="#5-membuat-notifikasi-pushbullet">Membuat Notifikasi PushBullet</a>
         </ol>
     </li>
     <li><a href="#instalasi">Instalasi</a>
         <ol>
-            <li><a href="#menginstal-anaconda">Menginstal Anaconda</a>
-            <li><a href="#menginstal-requirement">Menginstal Requirement</a>
-            <li><a href="#menginstal-pushbullet">Menginstal PushBullet</a>
-            <li><a href="#mengatur-token-pushbullet">Mengatur Token PushBullet</a>
-            <li><a href="#testing-program">Testing Program</a>
+            <li><a href="#1-menginstal-anaconda">Menginstal Anaconda</a>
+            <li><a href="#2-menginstal-requirement">Menginstal Requirement</a>
+            <li><a href="#3-menginstal-pushbullet">Menginstal PushBullet</a>
+            <li><a href="#4-mengatur-token-pushbullet">Mengatur Token PushBullet</a>
+            <li><a href="#5-testing-program">Testing Program</a>
         </ol>
     </li>
     <li><a href="#hasil-run-program">Hasil Run Program</a></li>
