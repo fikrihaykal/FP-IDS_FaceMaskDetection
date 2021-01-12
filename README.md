@@ -21,7 +21,7 @@ Sehubungan dengan adanya pandemi <i>Corona Virus Disease 19</i> atau yang biasa 
       <td>1.15.2</td>
     </tr>
     <tr>
-      <td>Kras</td>
+      <td>Keras</td>
       <td>2.3.1</td>
     </tr>
     <tr>
@@ -45,6 +45,13 @@ Sehubungan dengan adanya pandemi <i>Corona Virus Disease 19</i> atau yang biasa 
       <td>1.4.1</td>
     </tr>
   </table>
+  
+### Cara Kerja
+#### OpenCV Menggunakan Kamera
+#### Tensorflow dan Keras Mendeteksi Wajah
+#### Menampilkan Frame Label
+#### Menyimpan Screenshot Frame
+#### Membuat Notifikasi PushBullet
 
 ### Instalasi
 #### Menginstal Anaconda
@@ -59,7 +66,7 @@ Sehubungan dengan adanya pandemi <i>Corona Virus Disease 19</i> atau yang biasa 
 - Menginstal semua library requirement menggunakan `pip install`
 
 #### Mendaftar PushBullet
-- Mengunjungi situs resmi <a href="">PushBullet</a>
+- Mengunjungi situs resmi <a href="https://www.pushbullet.com/">PushBullet</a>
 - Mengunduh installer sesuai sistem operasi
 - Menginstal PushBullet
 - Melakukan pendaftaran menggunakan akun Google atau Facebook
