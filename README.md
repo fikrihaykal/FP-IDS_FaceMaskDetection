@@ -45,3 +45,32 @@ Sehubungan dengan adanya pandemi <i>Corona Virus Disease 19</i> atau yang biasa 
       <td>1.4.1</td>
     </tr>
   </table>
+
+### Instalasi
+#### Menginstal Anaconda
+- Mengunjungi situs resmi <a href="https://www.anaconda.com/products/individual">Anaconda</a>
+- Mengunduh installer sesuai sistem operasi
+- Menginstal Anaconda
+- Membuat <i>Environment</i> baru untuk project
+
+#### Menginstal Requirement
+- Membuka Anaconda Prompt
+- Berpindah Environtment dengan perintah `activate <nama environment>`
+- Menginstal semua library requirement menggunakan `pip install`
+
+#### Mendaftar PushBullet
+- Mengunjungi situs resmi <a href="">PushBullet</a>
+- Mengunduh installer sesuai sistem operasi
+- Menginstal PushBullet
+- Melakukan pendaftaran menggunakan akun Google atau Facebook
+- Generate token PushBullet
+
+#### Mengatur Token PushBullet
+- Membuka file `detect_mask.py`
+- Masukkan token PushBullet pada variabel `token`
+
+#### Testing Program
+- Membuka Anaconda Prompt
+- Berpindah Environtment dengan perintah `activate <nama environment>`
+- Berpindah directory sesuai tempat menyimpan project
+- Menjalankan program dengan perintah `python detect_mask.py`
