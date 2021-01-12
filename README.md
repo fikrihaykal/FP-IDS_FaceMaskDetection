@@ -27,7 +27,7 @@
         <ol>
             <li><a href="#1-menginstal-anaconda">Menginstal Anaconda</a>
             <li><a href="#2-menginstal-requirement">Menginstal Requirement</a>
-            <li><a href="#3-menginstal-pushbullet">Menginstal PushBullet</a>
+            <li><a href="#3-mendaftar-pushbullet">Mendaftar PushBullet</a>
             <li><a href="#4-mengatur-token-pushbullet">Mengatur Token PushBullet</a>
             <li><a href="#5-testing-program">Testing Program</a>
         </ol>
