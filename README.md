@@ -47,36 +47,36 @@ Sehubungan dengan adanya pandemi <i>Corona Virus Disease 19</i> atau yang biasa 
   </table>
   
 ### Cara Kerja
-#### OpenCV Menggunakan Kamera
-#### Tensorflow dan Keras Mendeteksi Wajah
-#### Menampilkan Frame Label
-#### Menyimpan Screenshot Frame
-#### Membuat Notifikasi PushBullet
+#### 1. OpenCV Menggunakan Kamera
+#### 2. Tensorflow dan Keras Mendeteksi Wajah
+#### 3. Menampilkan Frame Label
+#### 4. Menyimpan Screenshot Frame
+#### 5. Membuat Notifikasi PushBullet
 
 ### Instalasi
-#### Menginstal Anaconda
+#### 1. Menginstal Anaconda
 - Mengunjungi situs resmi <a href="https://www.anaconda.com/products/individual">Anaconda</a>
 - Mengunduh installer sesuai sistem operasi
 - Menginstal Anaconda
 - Membuat <i>Environment</i> baru untuk project
 
-#### Menginstal Requirement
+#### 2. Menginstal Requirement
 - Membuka Anaconda Prompt
 - Berpindah Environtment dengan perintah `activate <nama environment>`
 - Menginstal semua library requirement menggunakan `pip install`
 
-#### Mendaftar PushBullet
+#### 3. Mendaftar PushBullet
 - Mengunjungi situs resmi <a href="https://www.pushbullet.com/">PushBullet</a>
 - Mengunduh installer sesuai sistem operasi
 - Menginstal PushBullet
 - Melakukan pendaftaran menggunakan akun Google atau Facebook
 - Generate token PushBullet
 
-#### Mengatur Token PushBullet
+#### 4. Mengatur Token PushBullet
 - Membuka file `detect_mask.py`
 - Masukkan token PushBullet pada variabel `token`
 
-#### Testing Program
+#### 5. Testing Program
 - Membuka Anaconda Prompt
 - Berpindah Environtment dengan perintah `activate <nama environment>`
 - Berpindah directory sesuai tempat menyimpan project
