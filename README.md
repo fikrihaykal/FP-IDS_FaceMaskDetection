@@ -8,8 +8,21 @@
 ![matkul](https://img.shields.io/badge/Mata%20Kuliah-Sistem%20Deteksi%20dan%20Intrusi-blueviolet)<br />
 ![dosen](https://img.shields.io/badge/Dosen%20Pembimbing-Ridho%20Rahman%20Hariadi%20S.Kom,%20M.Sc-blueviolet)<br />
 
+
+### Daftar Isi
+<ol>
+    <li><a href="#deskripsi">Deskripsi</a></li>
+    <li><a href="#requirement">Requirement</a></li>
+    <li><a href="#dataset">Dataset</a></li>
+    <li><a href="#cara-kerja">Cara Kerja</a></li>
+    <li><a href="#instalasi">Instalasi</a></li>
+    <li><a href="#hasil-run-program">Hasil Run Program</a></li>
+</ol>
+
+
 ### Deskripsi
 Sehubungan dengan adanya pandemi <i>Corona Virus Disease 19</i> atau yang biasa disebut COVID-19, semua orang diwajibkan memakai masker untuk beraktivitas di luar rumah. Oleh karena itu pengunjung tempat umum perlu dipastikan apakah memakai masker atau tidak. Penjaga tentunya tidak selalu bisa mengecek pengunjung satu per satu. Maka munculah ide untuk membuat program ini yang bisa meringankan tugas penjaga tempat umum. Program ini mendeteksi seseorang yang masuk ke suatu tempat atau ruangan, dan mengecek apakah orang tersebut memakai masker atau tidak. Ketika ada seseorang yang tidak mengenakan masker, maka sistem akan memberi notifikasi pada PushBullet. Program ini dibuat dengan bahasa Python dengan bantuan library Tensorflow, OpenCV serta Keras.
+
 
 ### Requirement
 <table>
@@ -46,7 +59,15 @@ Sehubungan dengan adanya pandemi <i>Corona Virus Disease 19</i> atau yang biasa 
       <td>1.4.1</td>
     </tr>
   </table>
-  
+
+
+### Dataset
+- Terletak pada folder `dataset`
+- Terdapat 2 subdirektori, yaitu `with_mask` dan `without_mask`
+- Pada folder `with_mask` terdapat 1915 gambar orang yang memakai masker
+- Pada folder `without_mask` terdapat 1918 gambar orang yang tidak memakai masker
+
+
 ### Cara Kerja
 #### 1. OpenCV Menggunakan Kamera
 Pertama kali pada saat menjalankan script `detect_mask.py`, program akan membuka sebuah window yang berisi tampilan kamera. Dari situ OpenCV akan menghandle dari frame ke frame untuk diolah oleh Tensorflow.
@@ -62,6 +83,7 @@ Tahap ini akan dilalui ketika ada seseorang yang tidak mengenakan masker. Progra
 
 #### 5. Membuat Notifikasi PushBullet
 Setelah frame disimpan, maka langkah selanjutnya adalah mengirim gambar tersebut untuk digunakan sebagai notifikasi pada PushBullet. Yang dapat diakses di Web, Desktop maupun Mobile App
+
 
 ### Instalasi
 #### 1. Menginstal Anaconda
@@ -92,11 +114,5 @@ Setelah frame disimpan, maka langkah selanjutnya adalah mengirim gambar tersebut
 - Berpindah directory sesuai tempat menyimpan project
 - Menjalankan program dengan perintah `python detect_mask.py`
 
-
-### Dataset
-- Terletak pada folder `dataset`
-- Terdapat 2 subdirektori, yaitu `with_mask` dan `without_mask`
-- Pada folder `with_mask` terdapat 1915 gambar orang yang memakai masker
-- Pada folder `without_mask` terdapat 1918 gambar orang yang tidak memakai masker
 
 ### Hasil Run Program
