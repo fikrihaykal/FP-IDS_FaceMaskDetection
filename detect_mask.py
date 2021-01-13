@@ -14,6 +14,9 @@ from pushbullet import PushBullet
 # Inisialisasi variabel counter, label dan tanggal
 inc = 0
 label = "Init"
+intercept = [None, None]
+frameIntercept = [None, None, None, None, None, None, None, None]
+frameCount = 0
 
 # Token untuk PushBullet
 token = 'o.ddpV3vtIXKx3vRVPbeoDaI2rsyGzHAvx'
@@ -82,10 +85,31 @@ while True:
         label = "Mask" if mask > withoutMask else "No Mask"
         color = (0, 255, 0) if label == "Mask" else (0, 0, 255)
 
-        if label == "No Mask":
-            inc += 1
-        else:
+        frameCount += 1
+
+        if (intercept[0] == "Mask") and (intercept[1] == "Mask"):
             inc = 0
+
+        if label == "No Mask":
+            if frameCount >2:
+                if (startX >= frameIntercept[6]) or (endX <= frameIntercept[4]) or (startY >= frameIntercept[7]) or (endY <= frameIntercept[5]):
+                    if (startX >= frameIntercept[2]) or (endX <= frameIntercept[0]) or (startY >= frameIntercept[3]) or (endY <= frameIntercept[1]):
+                        inc = 0
+            inc += 1
+        # else:
+        #     inc = 0
+
+        intercept[0] = intercept[1]
+        intercept[1] = label
+
+        frameIntercept[0] = frameIntercept[4]
+        frameIntercept[1] = frameIntercept[5]
+        frameIntercept[2] = frameIntercept[6]
+        frameIntercept[3] = frameIntercept[7]
+        frameIntercept[4] = startX
+        frameIntercept[5] = startY
+        frameIntercept[6] = endX
+        frameIntercept[7] = endY
 
         now = datetime.now()
         waktu = now.strftime("intruder\%d%m%Y_%H%M%S.png")
